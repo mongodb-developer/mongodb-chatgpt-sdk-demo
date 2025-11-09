@@ -1,7 +1,8 @@
-# chatgpt-todo-mcp
+# mongodb-chatgpt-sdk-demo
 
 **mongodb-chatgpt-sdk-demo** is a Next.js 15 starter that shows how to pair [MongoDB Atlas](https://www.mongodb.com/atlas), Vercel, and the [ChatGPT Apps SDK](https://platform.openai.com/docs/apps) to build a collaborative to-do assistant. The same Atlas-backed APIs drive both the traditional web UI and the Model Context Protocol (MCP) tools that make the experience available directly inside ChatGPT.
 
+![Demo](./ChatGPT-mcp-app.gif)
 ## Highlights
 
 - **Shared task lists.** `todo_lists` and `todo_items` collections live in Atlas, complete with optimistic UI updates, sharing links, and live refresh via SWR.
